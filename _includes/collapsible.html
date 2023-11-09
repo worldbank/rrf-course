@@ -1,0 +1,13 @@
+<div class="collasible-container" >
+{% for element in site.data.index.collapsibles %}
+<div class="collapsible" >
+    <div class="collapsibile-title">
+        {{element | replace: "_", " " }}
+        <i class="fa fa-angle-down"></i>
+    </div>
+    <div class="collapsible-content" >
+        {% include {{element}}.md %}
+    </div>
+</div>
+{% endfor %}
+</div>

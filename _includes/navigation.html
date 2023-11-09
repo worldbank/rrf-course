@@ -1,0 +1,33 @@
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md py-0 .navbar-dark bg-dark text-light">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars"></i>
+  </button>
+
+  <div class="navbar-collapse collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      {% for module in site.data.course.modules %}
+       {% assign first_post = site.categories[module]|reverse|first %}
+        {% if module contains "module" %}
+          <li class="nav-item py-2{% if page.categories[1] == module %} active{% endif %}">
+            <a class="nav-link" href="{{ site.baseurl }}{{ first_post.url }}">
+              {{ module }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+<!--
+      <li class="nav-item py-2">
+        <a class="nav-link" href="https://www.p2pu.org/en/" target="_blank">Example Link</a>
+      </li>
+-->
+    </ul>
+    <ul class="navbar-nav right-menu">
+      <li class="'nav-item py-2">    <a class="nav-link" href="{{site.baseurl}}/">HOME </a> </li>
+      <li class="nav-item py-2"> <a class="nav-link" href="{{site.baseurl}}/FAQs">FAQs </a></li>
+      <li class="nav-item py-2"> <a class="nav-link" href="{{site.baseurl}}/About">About Us </a></li>
+
+    </ul>
+  </div>
+</nav>

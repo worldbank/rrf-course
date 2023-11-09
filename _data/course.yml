@@ -1,0 +1,62 @@
+title: "rrf-course"
+description: ""
+modules: [ module1, module2, module3, module4]
+rightNav: [ HOME, FAQs]
+
+links:
+
+- title: Overview
+  url: index.html
+
+- title: "Course Outline"
+  url: "#course-outline"
+
+- title: "Course Navigation"
+  url: "#course-navigation-guide"
+ 
+- title: "Course Certificate"
+  url: "#course-certificate"
+
+- title: "Office Hours"
+  url: "#office-hours"
+
+
+Quizzes:
+  module1:
+    url: "https://survey.wb.surveycto.com/collect/login.html?nextUrl=%2Fcollect%2Fmsfr23_m1_quiz"
+  module2:
+    url: "https://survey.wb.surveycto.com/collect/login.html?nextUrl=%2Fcollect%2Fmsfr23_m1_quiz"
+  module3:
+    url: "https://survey.wb.surveycto.com/collect/login.html?nextUrl=%2Fcollect%2Fmsfr23_m1_quiz"
+  module4:
+    url: "https://survey.wb.surveycto.com/collect/login.html?nextUrl=%2Fcollect%2Fmsfr23_m1_quiz"
+
+agenda:
+  introduction:
+    title: "Live Opening Session"
+    url: "live_session.html"
+    img: "img/0.png"
+  module1:
+    title: "REPRODUCIBLE & SECURE WORKFLOWS FROM THE START"
+    img: "img/1.png"
+    url: course_page.html
+    sub-modules: ["Overview","Statistical Programming 101",
+     "Structuring Data Work Effectively & Efficiently",
+     Handling personal data safely", 
+     "Quiz", "Optional Activity"]
+  module2:
+    title: "SET UP DATA FOR REPRODUCIBILE ANALYTICS"
+    img: "img/2.png"
+    sub-modules: ["Overview", "Tidying Data", "Cleaning Data", "Constructing Indicators","Quiz", "Optional Activity"]
+  module3:
+    title: "ANALYZE DATA EFFICIENTLY & TRANSPARENTLY"
+    img: "img/3.png"
+    sub-modules: ["Overview","Analyzing Data", "Best Practices for Reproducible Outputs","Quiz","Optional Activity"]
+  module4:
+    title: "Moving Beyond Basics: Advanced Concepts and Practical Applications"
+    img: "img/4.png"
+    sub-modules: ["Overview","Ensuring Data Quality", "Special Considerations for Administrative Data", "Closing and analytics resources", "Quiz", "Optional Activity"]
+  epilogue:
+    title: "Live Closing Session"
+    url: "live_session.html"
+    img: "img/5.png"
