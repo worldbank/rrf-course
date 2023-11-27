@@ -3,7 +3,7 @@ markdown: kramdown
 permalink: /:categories/:title/
 
 # Change this tracking code with your own tracking code
-ga_tracking_code: UA-139717412-2
+ga_tracking_code: G-K08E4LNBWZ
 
 # Some files we need to exclude, so Github can build the site
 exclude: [Gemfile, Gemfile.lock, README.md]
@@ -28,6 +28,6 @@ prose:
 # Set some personal styles and logo for your course
 # this is a hex value http://www.w3schools.com/tags/ref_colorpicker.asp
 jumbotron_color: "#58D7CB"
-jumbotron_image: "img/example-jumbotron.png"
+# jumbotron_image: "img/rrf-site.png"
 # jumbotron_mask: "img/jumbotron-mask.svg"
 # jumbotron_icon: ""

@@ -18,7 +18,7 @@ layout: base
 						<div class="title">
 							Previous submodule:
 						</div>
-						<a rel="prev" class="prev" href="{{ site.baseurl }}{{ prev.url }}">
+						<a rel="prev" class="prev" href="{{ site.baseurl }}{{ prev.url }}index.html">
 							{{ prev.title }} </a>
 				{% endif %}
 					</div>
@@ -27,7 +27,7 @@ layout: base
 						<div class="title">
 							Next submodule:
 						</div>
-						<a rel="next" class="next" href="{{ site.baseurl }}{{ next.url }}"> {{ next.title }}
+						<a rel="next" class="next" href="{{ site.baseurl }}{{ next.url }}index.html"> {{ next.title }}
 						</a>
 					</div>		
 			 	{% elsif next_module %}
@@ -35,7 +35,7 @@ layout: base
 					<div class="title">
 						Next module:
 					</div>
-					<a rel="next" class="next" href="{{ site.baseurl }}{{ next_post_module.url }}"> {{ next_module }}
+					<a rel="next" class="next" href="{{ site.baseurl }}{{ next_post_module.url }}index.html"> {{ next_module }}
 					</a>
 				</div>
 				{% endif %}

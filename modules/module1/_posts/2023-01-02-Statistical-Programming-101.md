@@ -1,9 +1,4 @@
-<div>
-    <h4> Statistical Programming 101 </h4>
+{% assign sub_module = "Statistical Programming 101" %}
+{% assign module = "module1" %}
 
-    <iframe src="https://www.youtube.com/embed/WRLhmSaDUEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    <div class="supplementary">
-        <a href=""> Slide</a>
-    </div>
-</div>
+{% include video.md %}

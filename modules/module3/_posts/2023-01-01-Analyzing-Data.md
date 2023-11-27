@@ -1,6 +1,4 @@
-<h4> Analyzing Data </h4>
+{% assign sub_module = "Analyzing Data" %}
+{% assign module = "module3" %}
 
-<iframe src="https://www.youtube.com/embed/WRLhmSaDUEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div class="supplementary">
-    <a href=""> Slide</a>
-</div>
+{% include video.md %}

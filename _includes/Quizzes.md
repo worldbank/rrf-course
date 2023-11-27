@@ -1,12 +1,9 @@
-<div class="Quizzes">
-The quizzes can be completed via the links below. <br/>
-All the quizzes are due <b> 13 December 2023 at 11:59 PM EDT/GMT </b>
-<div class="Quiz-List List">
-    <ul class="square">
-    {% for module in site.data.course.modules %}
-        {% assign agenda=site.data.course.agenda[module] %}
-        <li><a href={{site.data.course.Quizzes[module].url}}>{{agenda.title|capitalize}} </a>  </li>
-    {% endfor %}
-    </ul>
-    </div>
+<h4> {{module|capitalize}}: Graded Quiz </h4>
+Due:<b> 13 December 2023 at 11:59 PM (ET)</b>
+<br/>Maximum Number of Attempts Allowed: <b> 2</b>
+
+<div class="Quiz">
+    <a href = "{{site.data.course.Quizzes[module].url}}" target="_blank">
+    <button> Start Quiz</button>
+    </a>
 </div>

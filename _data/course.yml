@@ -1,62 +1,146 @@
 title: "rrf-course"
 description: ""
-modules: [ module1, module2, module3, module4]
+modules: [ module1, module2, module3, moving_beyond]
 rightNav: [ HOME, FAQs]
-
-links:
-
-- title: Overview
-  url: index.html
-
-- title: "Course Outline"
-  url: "#course-outline"
-
-- title: "Course Navigation"
-  url: "#course-navigation-guide"
- 
-- title: "Course Certificate"
-  url: "#course-certificate"
-
-- title: "Office Hours"
-  url: "#office-hours"
 
 
 Quizzes:
+  baseline:
+    url: &baseline "https://survey.wb.surveycto.com/collect/baseline_rrf23"
   module1:
-    url: "https://survey.wb.surveycto.com/collect/login.html?nextUrl=%2Fcollect%2Fmsfr23_m1_quiz"
+    url: "https://survey.wb.surveycto.com/collect/rrf23_m1_quiz?caseid="
   module2:
-    url: "https://survey.wb.surveycto.com/collect/login.html?nextUrl=%2Fcollect%2Fmsfr23_m1_quiz"
+    url: "https://survey.wb.surveycto.com/collect/rrf23_m2_quiz?caseid="
   module3:
-    url: "https://survey.wb.surveycto.com/collect/login.html?nextUrl=%2Fcollect%2Fmsfr23_m1_quiz"
-  module4:
-    url: "https://survey.wb.surveycto.com/collect/login.html?nextUrl=%2Fcollect%2Fmsfr23_m1_quiz"
+    url: "https://survey.wb.surveycto.com/collect/rrf23_m3_quiz?caseid="
+  moving_beyond:
+    url: "https://survey.wb.surveycto.com/collect/rrf23_m4_quiz?caseid="
+  endline: 
+    url: &endline "https://survey.wb.surveycto.com/collect/endline_rrf23?caseid="
+
+OptionalsActivities:
+  PrimaryData: https://osf.io/e94a7/
+  SecondaryData: https://osf.io/zrbcq/
 
 agenda:
   introduction:
     title: "Live Opening Session"
     url: "live_session.html"
-    img: "img/0.png"
+    img: "img/opening.png"
   module1:
     title: "REPRODUCIBLE & SECURE WORKFLOWS FROM THE START"
-    img: "img/1.png"
+    index: 1
+    img: "img/module-1.png"
     url: course_page.html
-    sub-modules: ["Overview","Statistical Programming 101",
-     "Structuring Data Work Effectively & Efficiently",
-     Handling personal data safely", 
-     "Quiz", "Optional Activity"]
+    sub_modules: 
+      "Overview":
+      "Statistical Programming 101": 
+        slide: "https://osf.io/jnurw"
+        youtube: "https://www.youtube.com/embed/voBCFp1hIzs?si=aX_ru_ZdHyAHZDJN"
+        reading: "https://osf.io/vjkzp"
+      "Structuring Data Work Effectively & Efficiently":
+        slide: "https://osf.io/nrazx"
+        youtube: "https://www.youtube.com/embed/swG8GD2s4Oo?si=4xwwvkQ1DzaRHRAy"
+        reading: "https://osf.io/pa8y5"
+      "Handling personal data safely":
+        slide: "https://osf.io/drpy3"
+        youtube: https://www.youtube.com/embed/IgA0B5wkiFo?si=-l-6xaSNljRtJVhk
+        reading: "https://osf.io/7p49v"
+      "Quiz":
   module2:
-    title: "SET UP DATA FOR REPRODUCIBILE ANALYTICS"
-    img: "img/2.png"
-    sub-modules: ["Overview", "Tidying Data", "Cleaning Data", "Constructing Indicators","Quiz", "Optional Activity"]
+    title: "SET UP DATA FOR REPRODUCIBLE ANALYTICS"
+    index: 2 
+    img: "img/module-2.png"
+    sub_modules: 
+      "Overview":
+      "Tidying Data":
+        youtube: "https://www.youtube.com/embed/Ogd3zhuhEu8?si=Of9V3T6JQV82mhSm"
+        slide: "https://osf.io/6zr5b"
+        reading: "https://osf.io/des6c"
+      "Cleaning Data":
+        slide: "https://osf.io/6tqr4"
+        youtube: 'https://www.youtube.com/embed/uuRiKwn01AY?si=Wy8WMLa2JFX9EO0d'
+        reading: "https://osf.io/dpbzt"
+      "Constructing Indicators":
+        slide: "https://osf.io/wmqsn"
+        youtube: 'https://www.youtube.com/embed/MWRo4poeqfY?si=4rmRBN2J3sChWZQF'
+        reading: "https://osf.io/yeqbu"
+      "Quiz":
   module3:
     title: "ANALYZE DATA EFFICIENTLY & TRANSPARENTLY"
-    img: "img/3.png"
-    sub-modules: ["Overview","Analyzing Data", "Best Practices for Reproducible Outputs","Quiz","Optional Activity"]
-  module4:
-    title: "Moving Beyond Basics: Advanced Concepts and Practical Applications"
-    img: "img/4.png"
-    sub-modules: ["Overview","Ensuring Data Quality", "Special Considerations for Administrative Data", "Closing and analytics resources", "Quiz", "Optional Activity"]
+    index: 3
+    img: "img/module-3.png"
+    sub_modules: 
+      "Overview": 
+      "Analyzing Data": 
+        reading: "https://osf.io/e7vwa"
+        youtube: "https://www.youtube.com/embed/BDsdTDn5eHE?si=MtIefMuSSuc9H6Bs"
+        slide: "https://osf.io/rybjx"
+      "Best Practices for Reproducible Outputs":
+        youtube: "https://www.youtube.com/embed/wBIXAZTsiyU?si=zSgXVjJtSM32zzKz"
+        slide: "https://osf.io/ehsc5"
+        reading: "https://osf.io/b3fxs"
+      "Quiz":
+  moving_beyond:
+    title: 'MOVING BEYOND BASICS: ADVANCED CONCEPTS AND PRACTICAL APPLICATIONS'
+    index: 4
+    img: "img/module-4.png"
+    sub_modules:
+      "Overview":
+      "Additional Lecture: Ensuring Data Quality":
+        youtube: "https://www.youtube.com/embed/JOoAQbL-U2s?si=3_HVQ_mDPj9p36aK"
+        slide: "https://osf.io/qm9us"
+      "Additional Lecture: Special Considerations for Administrative Data":
+        slide: "https://osf.io/53dw4"
+        youtube: "https://www.youtube.com/embed/en41J9y2uTA?si=iHaXrLx0fv2v_1xY"
+      "Hands on application using R or Stata":
   epilogue:
     title: "Live Closing Session"
     url: "live_session.html"
-    img: "img/5.png"
+    img: "img/closing.png"
+
+LiveSessions: 
+  open_session: 
+    link:  &open_session_link "https://worldbankgroup.webex.com/worldbankgroup/j.php?MTID=m304842374546d1780cec1c682fc572ce"
+  admin_office_hour:
+    link: &admin_office_link "https://worldbankgroup.webex.com/worldbankgroup/j.php?MTID=m94a56bb2b9784b7eb34f18cff5060cd5"
+  technical_office_hour:
+    link: &tech_office_link "https://worldbankgroup.webex.com/worldbankgroup/j.php?MTID=mb54608cd074dcbee4564c54f3f53655c"
+  closing_session:
+    link: &closing_session_link "https://worldbankgroup.webex.com/worldbankgroup/j.php?MTID=m3f2f55f1543115c378ea3489d7bf6263"
+
+announcements:
+    endline_test:
+        start_datetime: "2023/11/30"
+        end_datetime: "2023/12/13:11:59"
+        content: "Endline knowledge test is due by 13rd Dec 11:59pm (ET) "
+        link_name:  "Quiz Link"
+        link: *endline
+    open_session:
+        start_datetime: "2023/11/8, 11:59 PM"
+        end_datetime:   "2023/11/29, 10:30 PM"
+        content: "Live opening session on 29th Nov from 9:30am to 10:30am (ET)"
+        link_name: "Connection Link"
+        link: *open_session_link
+    office_hour1:
+        start_datetime: "2023/11/8, 11:59 PM"
+        end_datetime: "2023/11/30, 10:30 AM"
+        content: "Admin office hours on 30th Nov from 9:30am to 10:30am (ET)"
+        link_name: "Connection Link"
+        link: *admin_office_link
+    office_hour2:
+        start_datetime: "2023/12/5, 11:59 PM"
+        end_datetime: "2023/12/6, 10:30 AM"
+        content: "Technical office hours 6th Dec from 9:30am to 10:30am (ET)"
+        link_name: "Webex Link"
+        link: *tech_office_link
+    closing_session:
+        start_datetime: "2023/12/06, 11:59 PM"
+        end_datetime: "2023/12/13, 10:30 AM"
+        content: "Live closing session 13th Dec from 9:30am to 10:30am (ET)"
+        link_name: "Webex Link"
+        link: *closing_session_link
+    quizzes:
+        start_datetime: "2023/11/8"
+        end_datetime: "2023/12/13"
+        content: "Baseline test, quizzes and endline test are all due 13th December, 11.59pm (ET)"

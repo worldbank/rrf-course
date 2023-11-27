@@ -19,9 +19,12 @@
 {% endif %}
 
 {% if site.jumbotron_image %}
-	$jumbotron-image: '{{ site.jumbotron_image}}';
+	$jumbotron-image: url("{{ site.baseurl }}/img/rrf-site-desktop.png");
+	$jumbotron-image-mobile: url("{{ site.baseurl }}/img/rrf-site.png");
+
 {% else %}
-	$jumbotron-image: 'img/jumbotron-image.svg';
+	$jumbotron-image: url("{{ site.baseurl }}/img/rrf-site-desktop.png");
+	$jumbotron-image-mobile: url("{{ site.baseurl }}/img/rrf-site.png");
 {% endif %}
 
 {% assign image_ext = site.jumbotron_image|split:"."|last %}

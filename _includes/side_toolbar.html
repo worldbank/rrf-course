@@ -6,7 +6,7 @@
 			<div class="title">
 				Previous module:
 			</div>
-			<a rel="prev" class="prev" href="{{ site.baseurl }}{{ prev_post_module.url }}">
+			<a rel="prev" class="prev" href="{{ site.baseurl }}{{ prev_post_module.url }}index.html">
 				{{ prev_module }} </a>
 		</div>
 		<hr />
@@ -15,7 +15,7 @@
 		{% for post in site.categories[module] reversed %}
 			<li class="{% if post.url == page.url %}active{% endif %} {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
 				<a
-						href="{{ site.baseurl }}{{ post.url }}">
+						href="{{ site.baseurl }}{{ post.url }}index.html">
 					{{ post.title }}
 				</a>
 			</li>
@@ -27,7 +27,7 @@
 			<div class="title">
 				Next module:
 			</div>
-			<a rel="next" class="next" href="{{ site.baseurl }}{{ next_post_module.url }}"> {{ next_module }}
+			<a rel="next" class="next" href="{{ site.baseurl }}{{ next_post_module.url }}index.html"> {{ next_module }}
 			</a>
 		</div>
 	{% endif %}

@@ -11,6 +11,15 @@ body {
   }
 }
 
+.container{
+  b{
+    color: #800280
+  }
+  h4 {
+    color: #800280
+  }
+}
+
 .navbar {
   position: sticky;
   top: 0px;
@@ -59,7 +68,19 @@ ul.square {
   flex-direction: column;
   color: white;
   height: 200px;
-  padding-top: 20px;
+
+
+  .main-image{      
+    content: $jumbotron-image-mobile;
+    height: 100%;
+  } 
+
+  @media screen and (min-width: 600px) {      
+    .main-image{        
+      content: $jumbotron-image;
+      height: 100%;
+    } 
+  } 
 
   .logos{
     display: flex;
@@ -343,12 +364,11 @@ section {
 }
 
 footer {
-  padding: 2em 0;
-  background-color: $gray-dark;
-  color: $gray-lighter;
+  padding: 1em 0;
   text-align: center;
   font-size: 12pt;
   max-height: 100px;
+  border-top: 1px solid grey;
   a {
     color: #FCFCFC;
     border-bottom: 1px dotted;
@@ -460,7 +480,8 @@ footer {
       display: flex;
       align-items: center;
       img {
-        height: 50px;
+        width: 100px;
+        margin: 10px
       }
     }
   
@@ -538,6 +559,9 @@ footer {
   }
   ul {
     margin: 10px;
+    a {
+      margin-left: 20px;
+    }
   }
 }
 
@@ -549,8 +573,19 @@ footer {
   align-self: flex-start;
   font-size: 14px;
   overflow: auto;
+  .module_title {
+    color:#800280;
+    ;
+  }
   b {
     font-size: medium;
+  }
+
+
+  @media only screen and (min-width: 700px) {
+    ul {
+      margin-left: 100px;
+    }
   }
 }
 
@@ -576,3 +611,28 @@ footer {
     box-shadow: grey 2px 1px 1px;
   }
 }
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  align-items: flex-end;
+
+  .link-logos {
+    margin-right: 50px;
+  }
+
+  img{
+    margin: 3px
+  }
+
+  button{
+    border-radius: 10px;
+    background-color: #893091;
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-size: small;
+  }
+}
+
