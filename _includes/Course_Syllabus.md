@@ -15,7 +15,7 @@
             <!-- <a href="{{ site.baseurl }}{{ first_post.url }}">
             </a> -->
             <div class = "description">
-                <a href="{{ site.baseurl }}{{ first_post.url }}">
+                <a href="{{ site.baseurl }}{{ first_post.url }}index.html">
                     <img src="{{ site.baseurl }}/{{agenda.img}}">
                     <div class="module_title">
                     {% if module contains "module" %}
@@ -28,7 +28,7 @@
                 <ul class="square">
                     {% for sub_module in agenda.sub_modules %}
                         {% assign post = site.categories[module][forloop.rindex0 ] %}
-                            <a href="{{ site.baseurl }}{{ post.url }}">
+                            <a href="{{ site.baseurl }}{{ post.url }}index.html">
                                 <li>{{sub_module[0]}} </li>
                             </a>
                     {% endfor %}

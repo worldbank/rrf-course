@@ -36,7 +36,7 @@ To receive a Certificate of Completion, participants must meet the following req
 <br/>You can track your status of completion on the <a href="https://docs.google.com/spreadsheets/d/1wK2k4bGN4Gt5cAQAPDeB2Du_xpRNbA3-SjcgPZYXUDQ/edit#gid=1137564209" target='_blank'>course completion tracker </a>.  
 
 6. <b>What information do I need to take the knowledge tests and quizzes? </b><br/>
-To submit your assignments and quizzes, you will just need your unique participant ID. We sent an email to all participants with their 6-digit unique participant ID on <b>November 28th, 2023</b>, with the subject line <b>“RRF 2023 – Course Welcome”</b>. In case you do not know your participant ID, or cannot find it, please look up your participant ID using <a target="_blank" href="https://survey.wb.surveycto.com/collect/rrf_unique_id?caseid=">this form</a> with your registered email. 
+To submit your assignments and quizzes, you will just need your unique participant ID. We sent an email to all participants with their 6-digit unique participant ID on <b>November 28th, 2023</b>, with the subject line <b>“RRF 2023 – Course Welcome”</b>. In case you do not know your participant ID, or cannot find it, please look up your participant ID using <a target="_blank" href="https://survey.wb.surveycto.com/collect/rrf_participant_id?caseid">this form</a> with your registered email. 
 
 7. <b>What is the format of the quizzes? Can I track my scores and course completion status? </b><br/>
 The quizzes contain multiple choice questions. They are programmed to automatically grade your answers in real-time. You will be allowed 2 attempts for each quiz.  
