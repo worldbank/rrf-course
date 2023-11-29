@@ -121,7 +121,7 @@ announcements:
         link: *endline
     open_session:
         start_datetime: "2023/11/8, 11:59 PM"
-        end_datetime:   "2023/11/29, 10:30 PM"
+        end_datetime:   "2023/11/29, 10:30 AM"
         content: "Live opening session on 29th Nov from 9:30am to 10:30am (ET)"
         link_name: "Connection Link"
         link: *open_session_link
