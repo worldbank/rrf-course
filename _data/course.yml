@@ -141,3 +141,5 @@ announcements:
         start_datetime: "2023/11/8"
         end_datetime: "2023/12/13"
         content: "Baseline test, quizzes and endline test are all due 13th December, 11.59pm (ET)"
+        link_name: "Endline Test Link"
+        link: *endline
