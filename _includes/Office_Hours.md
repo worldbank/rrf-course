@@ -12,4 +12,5 @@ Now Closed
 <b>TECHNICAL OFFICE HOUR</b>
 <br/>
 <b>December 6 2023,  9:30am - 10:30am (ET)</b></br>
-Join from the <a target="_blank" href={{site.data.course.LiveSessions.technical_office_hour.link}}>link</a><br/>
+Now Closed 
+
