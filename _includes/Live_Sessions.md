@@ -8,4 +8,6 @@ Now Closed -
 <br>
 <b> CLOSING SESSION - Creating a Reproducibility Package</b> </br>
 <b>December 13 2023, 9:30am - 10:30am (ET) </b></br>
-Join from the  <a target="_blank"  href={{site.data.course.LiveSessions.closing_session.link}}>link</a>
+Now Closed - 
+<a href="https://osf.io/m59tu" target="_blank"> Recording </a>, 
+<a href="https://osf.io/d3f7w" target="_blank"> Slide </a>
