@@ -8540,10 +8540,13 @@ footer {
 
 .home-content {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 330px);
+  justify-content: space-between; }
   .home-content ul {
-    list-style: none;
-    font-size: medium; }
+    list-style: none; }
   .home-content .side-bar {
     visibility: collapse !important;
     width: 0; }

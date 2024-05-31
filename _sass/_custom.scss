@@ -385,10 +385,12 @@ footer {
 
 .home-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;display: flex;
+    flex-direction: column;
+    height: calc(100vh - 330px);
+    justify-content: space-between;
   ul {
     list-style: none;
-    font-size: medium;
   }
 
   .side-bar {
