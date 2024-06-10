@@ -16,7 +16,7 @@
             </a> -->
             <div class = "description">
                 <a href="{{ site.baseurl }}{{ first_post.url }}index.html">
-                    <img src="{{ site.baseurl }}/{{agenda.img}}">
+                    <img src="{{ site.baseurl }}/{{agenda.img}}" alt="{{agenda.title}}">
                     <div class="module_title">
                     {% if module contains "module" %}
                     <b>Module {{agenda.index}}</b> <br/><b>{{agenda.title}} </b><br/>
