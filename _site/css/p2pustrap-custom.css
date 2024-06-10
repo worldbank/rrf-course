@@ -8257,15 +8257,15 @@ body {
     font-weight: 400; }
 
 .container b {
-  color: #800280; }
+  color: #053657; }
 .container h4 {
-  color: #800280; }
+  color: #053657; }
 
 .navbar {
   position: sticky;
   top: 0px;
   z-index: 2;
-  background: #B66DB6 !important;
+  background: #053657 !important;
   border-bottom: solid 1px white;
   min-height: 50px; }
   .navbar a, .navbar .nav-link, .navbar button {
@@ -8279,21 +8279,21 @@ body {
       border-left: none; } }
 
 .nav-item.active, .nav-item:hover {
-  background-color: #a76cad;
+  background-color: #009FDA;
   transition: all 0.3s linear; }
 
 ul.square {
   margin: 10px;
   list-style-type: square !important; }
   ul.square a {
-    color: #B66DB6 !important; }
+    color: #053657 !important; }
 
 .nav-link {
   padding-left: 1em !important;
   padding-right: 1em !important; }
 
 .Title {
-  background: #800280;
+  background: #053657;
   margin-bottom: 0 !important;
   display: flex;
   flex-direction: column;
@@ -8384,11 +8384,11 @@ section {
   line-height: 1.8; }
 
 .sidebar {
-  background-color: #F6EAF6;
+  background-color: #E9F7FD;
   font-size: 15px;
   padding-bottom: 10px; }
   .sidebar a {
-    color: #800280; }
+    color: #053657; }
 
 .sidebar ul {
   list-style-type: none;
@@ -8403,7 +8403,7 @@ section {
       transition: none; } }
 
 .sidebar li:hover {
-  background-color: #893091; }
+  background-color: #009FDA; }
   .sidebar li:hover a:hover, .sidebar li:hover a:focus {
     text-decoration: none;
     color: #fff; }
@@ -8414,7 +8414,7 @@ section {
   background-color: #fff; }
 
 .sidebar li.active a:hover {
-  color: #893091; }
+  color: #053657; }
 
 .sidebar li a {
   display: block;
@@ -8430,7 +8430,7 @@ section {
   line-height: 2; }
 
 .pagination-section a {
-  color: #800280 !important; }
+  color: #053657 !important; }
 .pagination-section .next, .pagination-section .prev {
   text-transform: uppercase; }
 
@@ -8475,7 +8475,7 @@ section {
   .sidebar li a:before {
     content: "\f005";
     font-family: FontAwesome;
-    color: #893091;
+    color: #053657;
     position: absolute;
     left: 29px;
     line-height: 1.7;
@@ -8567,7 +8567,7 @@ footer {
   min-height: 50px;
   box-shadow: 1px 2px 6px grey; }
   .collapsible i {
-    color: #893091;
+    color: #053657;
     font-size: xx-large; }
   .collapsible .collapsibile-title {
     display: flex;
@@ -8576,13 +8576,13 @@ footer {
     justify-content: space-between;
     font-size: x-large;
     padding: 10px;
-    color: #800280;
+    color: #053657;
     cursor: pointer; }
   .collapsible .collapsible-content {
     padding: 10px;
     border-top: 1px solid lightgrey; }
     .collapsible .collapsible-content b {
-      color: #800280; }
+      color: #053657; }
 
 .collapsible:not(.active) .collapsible-content {
   display: none; }
@@ -8609,7 +8609,7 @@ footer {
     min-height: 200px;
     margin: 10px;
     padding: 10px;
-    box-shadow: #800280 4px 1px 5px; }
+    box-shadow: #053657 4px 1px 5px; }
     .module_container .module a {
       display: flex;
       align-items: center; }
@@ -8630,7 +8630,7 @@ footer {
     width: 45%;
     margin: 10px;
     padding: 10px;
-    box-shadow: #800280 4px 1px 5px;
+    box-shadow: #053657 4px 1px 5px;
     display: flex;
     justify-content: center;
     align-items: center; }
@@ -8653,7 +8653,7 @@ footer {
   padding: 10px;
   min-height: 80px;
   margin: 5px;
-  background-color: #c29cc9;
+  background-color: #CDE7F9;
   border-radius: 10px;
   color: black;
   opacity: 0.8;
@@ -8676,7 +8676,7 @@ footer {
   font-size: 14px;
   overflow: auto; }
   .description .module_title {
-    color: #800280; }
+    color: #053657; }
   .description b {
     font-size: medium; }
   @media only screen and (min-width: 700px) {
@@ -8695,7 +8695,7 @@ footer {
   height: 25vh;
   align-items: center; }
   .Quiz button {
-    background-color: #893091;
+    background-color: #053657;
     color: white;
     border-radius: 5px;
     box-shadow: grey 2px 1px 1px; }
@@ -8711,7 +8711,7 @@ footer {
     margin: 3px; }
   .footer-container button {
     border-radius: 10px;
-    background-color: #893091;
+    background-color: #053657;
     color: white;
     height: 50px;
     width: 150px;

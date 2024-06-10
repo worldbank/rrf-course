@@ -13,10 +13,10 @@ body {
 
 .container{
   b{
-    color: #800280
+    color: #053657
   }
   h4 {
-    color: #800280
+    color: #053657
   }
 }
 
@@ -24,7 +24,7 @@ body {
   position: sticky;
   top: 0px;
   z-index: 2;
-  background: #B66DB6 !important;
+  background: #053657 !important;
   border-bottom: solid 1px white;
   min-height: 50px;
   a, .nav-link, button {
@@ -44,7 +44,7 @@ body {
 }
 
 .nav-item.active, .nav-item:hover {
-  background-color: #a76cad;
+  background-color: #009FDA;
 	transition: all 0.3s linear;
 }
 
@@ -52,7 +52,7 @@ ul.square {
   margin: 10px;
   list-style-type: square !important;
   a {
-    color: #B66DB6 !important;
+    color: #053657 !important;
   }
 }
 
@@ -62,7 +62,7 @@ ul.square {
 }
 
 .Title {
-  background: #800280;
+  background: #053657;
   margin-bottom: 0 !important;
   display: flex;
   flex-direction: column;
@@ -186,11 +186,11 @@ section {
 }
 
 .sidebar {
-	background-color: #F6EAF6;
+	background-color: #E9F7FD;
   font-size: 15px;
   padding-bottom: 10px;
   a {
-    color: #800280;
+    color: #053657;
   }
 }
 
@@ -206,7 +206,7 @@ section {
 }
 
 .sidebar li:hover {
-	background-color: #893091;
+	background-color: #009FDA;
 
 	a:hover, a:focus {
 		text-decoration: none;
@@ -222,7 +222,7 @@ section {
 }
 
 .sidebar li.active a:hover {
-	color: #893091;
+	color: #053657;
 }
 
 .sidebar li a {
@@ -239,7 +239,7 @@ section {
 
 .pagination-section {
   a {
-    color: #800280 !important;
+    color: #053657 !important;
   }
 
 	.next, .prev {
@@ -298,7 +298,7 @@ section {
   .sidebar li a:before {
     content: "\f005";
     font-family: FontAwesome;
-    color: #893091;
+    color: #053657;
     position: absolute;
     left: 29px;
     line-height: 1.7;
@@ -419,7 +419,7 @@ footer {
   min-height: 50px;
   box-shadow: 1px 2px 6px grey;
   i {
-    color: #893091;
+    color: #053657;
     font-size: xx-large;
   }
 
@@ -430,7 +430,7 @@ footer {
     justify-content: space-between;
     font-size: x-large;
     padding: 10px;
-    color: #800280;
+    color: #053657;
     cursor: pointer;
   }
 
@@ -438,7 +438,7 @@ footer {
     padding: 10px;
     border-top: 1px solid lightgrey;
     b {
-      color: #800280;
+      color: #053657;
     }
   }
 }
@@ -476,7 +476,7 @@ footer {
     min-height: 200px;
     margin: 10px;
     padding: 10px;
-    box-shadow: #800280 4px 1px 5px;
+    box-shadow: #053657 4px 1px 5px;
   
     a {
       display: flex;
@@ -509,7 +509,7 @@ footer {
     width: 45%;
     margin: 10px;
     padding: 10px;
-    box-shadow: #800280 4px 1px 5px;
+    box-shadow: #053657 4px 1px 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -548,7 +548,7 @@ footer {
   padding: 10px;
   min-height: 80px;
   margin: 5px;
-  background-color: #c29cc9;
+  background-color: #CDE7F9;
   border-radius: 10px;
   color: black;
   opacity: 0.8;
@@ -576,7 +576,7 @@ footer {
   font-size: 14px;
   overflow: auto;
   .module_title {
-    color:#800280;
+    color:#053657;
     ;
   }
   b {
@@ -607,7 +607,7 @@ footer {
   height: 25vh;
   align-items: center;
   button {
-    background-color: #893091;
+    background-color: #053657;
     color: white;
     border-radius: 5px;
     box-shadow: grey 2px 1px 1px;
@@ -630,7 +630,7 @@ footer {
 
   button{
     border-radius: 10px;
-    background-color: #893091;
+    background-color: #053657;
     color: white;
     height: 50px;
     width: 150px;
